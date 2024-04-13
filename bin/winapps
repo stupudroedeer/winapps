@@ -17,6 +17,15 @@ fi
 if [ ! -d "${HOME}/.local/bin" ]; then
 	mkdir -p "${HOME}/.local/bin"
 fi
+if [ ! -d "/usr/local/share/winapps" ]; then
+	mkdir -p "/usr/local/share/winapps"
+fi
+if [ ! -d "/usr/share/applications" ]; then
+	mkdir -p "/usr/local/share/applications"
+fi
+if [ ! -d "/usr/local/bin" ]; then
+	mkdir -p "/usr/local/bin"
+fi
 
 RDP_SCALE=100
 
