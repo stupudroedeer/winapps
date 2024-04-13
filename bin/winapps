@@ -11,6 +11,12 @@ RUN="$(date)-${RANDOM}"
 if [ ! -d "${HOME}/.local/share/winapps" ]; then
 	mkdir -p "${HOME}/.local/share/winapps"
 fi
+if [ ! -d "${HOME}/.local/share/applications" ]; then
+	mkdir -p "${HOME}/.local/share/applications"
+fi
+if [ ! -d "${HOME}/.local/bin" ]; then
+	mkdir -p "${HOME}/.local/bin"
+fi
 
 RDP_SCALE=100
 
